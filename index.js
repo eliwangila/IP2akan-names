@@ -31,3 +31,11 @@
           alert("Your Akan name is: " + getAkanName(dayIndex, gender));
           }
         }
+
+        function getAkanName(dayIndex, gender)
+        {
+          var boyNames = ["Kwasi", "Kwadwo","Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+          var girlNames = ["Akosua", "Adwoa","Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+          
+          return gender === "Male" ? boyNames[dayIndex] : girlNames[dayIndex];
+        }
