@@ -1,0 +1,8 @@
+* {
+    box-sizing: border-box;
+ }
+ 
+ body, html {
+    font-family: Montserrat-Regular, sans-serif;
+    background: #8cb6dc;
+ } 
