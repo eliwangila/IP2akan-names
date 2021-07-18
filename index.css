@@ -4,8 +4,20 @@
  
  body, html {
     font-family: Montserrat-Regular, sans-serif;
-    background: #8cb6dc;
+    font-weight: 700;
+    /* background: #8cb6dc; */
+    font-size: 14px;
  } 
+ body >#bg{
+     background-color: #8cb6dc;
+
+     width: 100%;
+     -webkit-clip-path: polygon(100% 0, 100% 69%, 73% 100%, 0 100%, 0 0);
+     clip-path: polygon(100% 0, 100% 69%, 73% 100%, 0 100%, 0 0);
+    position: absolute;
+    z-index: -1;
+ }
+ 
 
  .page-footer{
     background-color: rgb(0,0,0,0.8); 
