@@ -1,6 +1,8 @@
 # AKAN NAMES
 ## Author: Eli Wangila.
+
 ## Description
+[View the project via the link](http:/github.com/eliwangila/IP2akan-names)
 The website is an application that takes users input date, month and year, it validates. onces the details given is valid it helps you determine the day of the week you were born with an akan name.
 ## Setup/Installation
 Git clone or Download
